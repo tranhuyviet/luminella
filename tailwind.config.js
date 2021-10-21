@@ -7,6 +7,9 @@ module.exports = {
     darkMode: false, // or 'media' or 'class'
     theme: {
         extend: {
+            fontFamily: {
+                title: ['Montserrat', 'sans-serif'],
+            },
             colors: {
                 primary: {
                     50: '#6dffff',
@@ -23,6 +26,7 @@ module.exports = {
             },
             zIndex: {
                 hero: -1,
+                mandala: -2,
             },
         },
     },
