@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .link-active {
+        @apply text-primary-700 font-bold;
+    }
+
+    .btn {
+        @apply bg-primary-700 py-4 px-6 text-base font-semibold tracking-wider rounded-md text-white uppercase transition hover:bg-primary-500 hover:ring-2 hover:ring-offset-4 hover:ring-primary-500;
+    }
+}

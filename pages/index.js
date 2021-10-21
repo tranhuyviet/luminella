@@ -1,8 +1,9 @@
 import Head from 'next/head';
+import Hero from '../components/Hero';
 
 export default function Home() {
     return (
-        <div>
+        <div className='ralative'>
             <Head>
                 <title>
                     Etusivu | Hyvinvointi- ja Kauneushoitola Luminella
@@ -13,7 +14,7 @@ export default function Home() {
                 />
                 <link rel='icon' href='/favicon.ico' />
             </Head>
-            <h1>Luminella web</h1>
+            <Hero />
         </div>
     );
 }
