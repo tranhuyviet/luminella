@@ -15,7 +15,7 @@
     }
 
     .sectionTitle {
-        @apply uppercase text-4xl text-gray-700 tracking-widest font-title 
+        @apply uppercase text-4xl text-gray-700 tracking-widest font-title drop-shadow-md
         first-letter:text-primary-700 first-letter:font-bold first-letter:text-6xl;
     }
 }

@@ -36,7 +36,7 @@ const TeamCard = ({ imgUrl, name, text1, text2, text3, phone }) => {
             <p className='text-md text-gray-500 mb-2'>{text1}</p>
             <p className='text-md text-gray-500 mb-2'>{text2}</p>
             <p className='text-md text-gray-500 mb-2'>{text3}</p>
-            <p className='text-md text-gray-500 mb-8 font-bold'>{phone}</p>
+            <p className='text-lg text-gray-500 mb-8 font-bold'>{phone}</p>
         </div>
     );
 };
