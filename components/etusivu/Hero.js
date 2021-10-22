@@ -15,12 +15,12 @@ const Hero = () => {
                 <h1 className='text-4xl mt-10 text-gray-700 font-semibold uppercase drop-shadow-lg tracking-wider font-title'>
                     Hyvinvointi- ja Kauneushoitola Luminella
                 </h1>
-                <p className='text-xl text-gray-400 mt-10'>
+                <p className='text-xl text-gray-500 mt-10'>
                     Hyvinvointi- ja Kauneushoitola Luminella sijaitsee
                     Myyrmäessä kävelymatkan (5min) päässä juna-asemalta
                     osoitteessa Leiritie 2.
                 </p>
-                <p className='text-xl text-gray-400 mt-3 mb-14'>
+                <p className='text-xl text-gray-500 mt-3 mb-14'>
                     Oven edessä on parkkipaikka kahdelle autolle ja lisää
                     parkkitilaa löytyy hoitolan välittömästä läheisyydestä.
                 </p>

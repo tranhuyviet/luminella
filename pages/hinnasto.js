@@ -1,9 +1,12 @@
 import React from 'react';
+import Hero from '../components/hinnasto/Hero';
+import List from '../components/hinnasto/List';
 
 const Hinnasto = () => {
     return (
-        <div>
-            <h1>Hinnasto</h1>
+        <div className='sectionWrap'>
+            <Hero />
+            <List />
         </div>
     );
 };

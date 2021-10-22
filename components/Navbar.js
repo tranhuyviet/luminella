@@ -41,7 +41,7 @@ const Navbar = () => {
                         Hinnasto
                     </a>
                 </Link>
-                <Link href='/nettiajanvaraus'>
+                {/* <Link href='/nettiajanvaraus'>
                     <a
                         className={`${
                             pathname === '/nettiajanvaraus' && 'link-active'
@@ -49,7 +49,7 @@ const Navbar = () => {
                     >
                         Nettiajanvaraus
                     </a>
-                </Link>
+                </Link> */}
             </div>
         </div>
     );

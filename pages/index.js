@@ -1,9 +1,9 @@
 import Head from 'next/head';
-import ExuvianceSection from '../components/ExuvianceSection';
-import GallerySection from '../components/GallerySection';
-import GiftSection from '../components/GiftSection';
-import Hero from '../components/Hero';
-import TeamSection from '../components/TeamSection';
+import ExuvianceSection from '../components/etusivu/ExuvianceSection';
+import GallerySection from '../components/etusivu/GallerySection';
+import GiftSection from '../components/etusivu/GiftSection';
+import Hero from '../components/etusivu/Hero';
+import TeamSection from '../components/etusivu/TeamSection';
 
 export default function Home() {
     return (
