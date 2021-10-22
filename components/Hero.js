@@ -20,11 +20,11 @@ const Hero = () => {
                     Myyrmäessä kävelymatkan (5min) päässä juna-asemalta
                     osoitteessa Leiritie 2.
                 </p>
-                <p className='text-xl text-gray-400 mt-3'>
+                <p className='text-xl text-gray-400 mt-3 mb-14'>
                     Oven edessä on parkkipaikka kahdelle autolle ja lisää
                     parkkitilaa löytyy hoitolan välittömästä läheisyydestä.
                 </p>
-                <p className='text-xl text-gray-400 mt-3 mb-3'>
+                {/* <p className='text-xl text-gray-400 mt-3 mb-3'>
                     <span className='font-semibold'>Aukioloajat:</span> Ma - La
                     (Sopimuksen mukaan)
                 </p>
@@ -35,10 +35,15 @@ const Hero = () => {
                 <p className='text-xl text-gray-400 mt-3 mb-14'>
                     <span className='font-semibold'>Sähköposti:</span>{' '}
                     luminellakauneus@gmail.com
-                </p>
-                <Link href='https://slotti.fi/booking/hyvinvointi-jakauneushoitolaluminella/'>
-                    <a className='btn'>Nettia Ajanvaraus</a>
-                </Link>
+                </p> */}
+                <div className='space-x-8'>
+                    <Link href='https://slotti.fi/booking/hyvinvointi-jakauneushoitolaluminella/'>
+                        <a className='btn'>Nettia Ajanvaraus</a>
+                    </Link>
+                    <Link href='https://www.facebook.com/Luminella-1449576941995360/?fref=ts'>
+                        <a className='btn'>Meidän Facebook</a>
+                    </Link>
+                </div>
             </div>
         </div>
     );
