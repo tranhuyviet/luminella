@@ -12,7 +12,7 @@ const Hero = () => {
                 className='w-full h-screen object-scale-down xl:object-fill absolute inset-0 z-hero'
             />
             <div className='max-w-3xl  mx-auto mt-28 text-center'>
-                <h1 className='text-5xl mt-10 text-gray-700 font-semibold uppercase drop-shadow-lg tracking-wider'>
+                <h1 className='text-4xl mt-10 text-gray-700 font-semibold uppercase drop-shadow-lg tracking-wider font-title'>
                     Hyvinvointi- ja Kauneushoitola Luminella
                 </h1>
                 <p className='text-xl text-gray-400 mt-10'>

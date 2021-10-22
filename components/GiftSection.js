@@ -2,9 +2,9 @@ import Link from 'next/link';
 
 const GiftSection = () => {
     return (
-        <section className='text-center py-24 relative bg-gray-50'>
+        <section className='sectionWrap relative bg-gray-50'>
             <h1 className='sectionTitle'>Luminellan lahjakortit</h1>
-            <div className='mt-10 max-w-2xl mx-auto'>
+            <div className='mt-10 max-w-3xl mx-auto'>
                 <p className='mb-12 text-lg text-gray-500'>
                     Luminellan lahjakortit ovat henkilökohtainen ja toivottu
                     lahja. Lahjakortteja on saatavana valitulle hoidolle tai

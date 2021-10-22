@@ -2,9 +2,9 @@ import Link from 'next/link';
 
 const ExuvianceSection = () => {
     return (
-        <section className='text-center py-24 relative bg-[#FEFEFE]'>
+        <section className='sectionWrap relative bg-[#FEFEFE]'>
             <h1 className='sectionTitle'>EXUVIANCE Tuotemyynti</h1>
-            <div className='mt-10 max-w-2xl mx-auto'>
+            <div className='mt-10 max-w-3xl mx-auto'>
                 <p className='mb-12 text-lg text-gray-500'>
                     Kotihoitotuotteita voit ostaa Luminellasta hoidon yhteydessä
                     sekä vapaasti hoitolan aukioloaikoina. Tarvittaessa voit

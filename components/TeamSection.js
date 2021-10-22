@@ -3,9 +3,9 @@ import TeamCard from './TeamCard';
 
 const TeamSection = () => {
     return (
-        <section className='min-h-screen text-center pt-24 pb-24 relative overflow-hidden z-mandala bg-gray-50'>
+        <section className='sectionWrap min-h-screen relative overflow-hidden z-mandala bg-gray-50'>
             <h1 className='sectionTitle'>Luminellan ammattilaiset</h1>
-            <div className='flex justify-center space-x-8 mt-20'>
+            <div className='flex justify-center space-x-8 mt-12'>
                 <TeamCard
                     imgUrl='/images/Chrisu.jpg'
                     name='CHRISTINA HOKKANEN'
