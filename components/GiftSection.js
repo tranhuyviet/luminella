@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const GiftSection = () => {
     return (
-        <section className='text-center py-24 relative'>
+        <section className='text-center py-24 relative bg-gray-50'>
             <h1 className='sectionTitle'>Luminellan lahjakortit</h1>
             <div className='mt-10 max-w-2xl mx-auto'>
                 <p className='mb-12 text-lg text-gray-500'>
@@ -21,7 +21,7 @@ const GiftSection = () => {
             </div>
             <svg
                 xmlns='http://www.w3.org/2000/svg'
-                className='h-40 w-40 absolute top-0 left-8 text-primary-700 transform rotate-12 opacity-25'
+                className='h-40 w-40 absolute top-0 left-8 text-primary-700 transform rotate-12 opacity-25 '
                 viewBox='0 0 20 20'
                 fill='currentColor'
             >

@@ -24,10 +24,19 @@ const Hero = () => {
                     Oven edessä on parkkipaikka kahdelle autolle ja lisää
                     parkkitilaa löytyy hoitolan välittömästä läheisyydestä.
                 </p>
-                <p className='text-xl text-gray-400 mt-3 mb-14'>
-                    Aukioloajat: Ma - La (Sopimuksen mukaan)
+                <p className='text-xl text-gray-400 mt-3 mb-3'>
+                    <span className='font-semibold'>Aukioloajat:</span> Ma - La
+                    (Sopimuksen mukaan)
                 </p>
-                <Link href='/nettiajanvaraus'>
+                <p className='text-xl text-gray-400 mt-3 mb-3'>
+                    <span className='font-semibold'>Osoite:</span> Leiritie 2,
+                    01600, Vantaa
+                </p>
+                <p className='text-xl text-gray-400 mt-3 mb-14'>
+                    <span className='font-semibold'>Sähköposti:</span>{' '}
+                    luminellakauneus@gmail.com
+                </p>
+                <Link href='https://slotti.fi/booking/hyvinvointi-jakauneushoitolaluminella/'>
                     <a className='btn'>Nettia Ajanvaraus</a>
                 </Link>
             </div>

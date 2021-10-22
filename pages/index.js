@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import ExuvianceSection from '../components/ExuvianceSection';
 import GiftSection from '../components/GiftSection';
 import Hero from '../components/Hero';
 import TeamSection from '../components/TeamSection';
@@ -18,6 +19,7 @@ export default function Home() {
             </Head>
             <Hero />
             <TeamSection />
+            <ExuvianceSection />
             <GiftSection />
         </div>
     );
