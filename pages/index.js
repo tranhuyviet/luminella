@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import AjankohtaistaSection from '../components/etusivu/AjankohtaistaSection';
 import ExuvianceSection from '../components/etusivu/ExuvianceSection';
 import GallerySection from '../components/etusivu/GallerySection';
 import GiftSection from '../components/etusivu/GiftSection';
@@ -22,6 +23,7 @@ export default function Home() {
             <TeamSection />
             <ExuvianceSection />
             <GiftSection />
+            <AjankohtaistaSection />
             <GallerySection />
         </div>
     );
