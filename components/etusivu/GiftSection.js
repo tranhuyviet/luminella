@@ -1,20 +1,27 @@
 import Link from 'next/link';
-
+import Fade from 'react-reveal/Fade';
 const GiftSection = () => {
     return (
         <section className='sectionWrap relative bg-gray-50'>
-            <h1 className='sectionTitle'>Luminellan lahjakortit</h1>
+            <Fade right>
+                <h1 className='sectionTitle'>Luminellan lahjakortit</h1>
+            </Fade>
+
             <div className='mt-10 max-w-3xl mx-auto'>
-                <p className='mb-12 text-lg text-gray-500'>
-                    Luminellan lahjakortit ovat henkilökohtainen ja toivottu
-                    lahja. Lahjakortteja on saatavana valitulle hoidolle tai
-                    euromääräisenä. Lahjakortit voi noutaa hoitolasta tai pyytää
-                    lähettämään postitse. Voimassaoloaika lahjakorteille on 4-6
-                    kk.
-                </p>
-                <Link href='https://holvi.com/shop/luminella/'>
-                    <a className='btn'>Osta lahjakortit</a>
-                </Link>
+                <Fade right delay={150}>
+                    <p className='mb-12 text-lg text-gray-500'>
+                        Luminellan lahjakortit ovat henkilökohtainen ja toivottu
+                        lahja. Lahjakortteja on saatavana valitulle hoidolle tai
+                        euromääräisenä. Lahjakortit voi noutaa hoitolasta tai
+                        pyytää lähettämään postitse. Voimassaoloaika
+                        lahjakorteille on 4-6 kk.
+                    </p>
+                </Fade>
+                <Fade right delay={300}>
+                    <Link href='https://holvi.com/shop/luminella/'>
+                        <a className='btn'>Osta lahjakortit</a>
+                    </Link>
+                </Fade>
             </div>
             <div className='absolute  bottom-0 right-0 opacity-30 w-[300px] h-[300px]'>
                 <img src='/images/gift-box.png' alt='gift' />

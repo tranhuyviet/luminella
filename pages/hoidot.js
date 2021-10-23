@@ -1,5 +1,6 @@
 import React from 'react';
 import HoidotCard from '../components/hoidot/HoidotCard';
+import Fade from 'react-reveal/Fade';
 
 const data = [
     {
@@ -53,7 +54,9 @@ const Hoidot = () => {
         <div className='sectionWrap '>
             {data &&
                 data.map((item, index) => (
-                    <HoidotCard key={index} item={item} index={index} />
+                    <Fade right key={index}>
+                        <HoidotCard item={item} index={index} />
+                    </Fade>
                 ))}
         </div>
     );

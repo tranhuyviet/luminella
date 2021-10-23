@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Lightbox from 'react-awesome-lightbox';
 import 'react-awesome-lightbox/build/style.css';
+import Zoom from 'react-reveal/Zoom';
 
 const images = [
     { url: '/images/gal-etuovi.jpeg' },
@@ -29,13 +30,15 @@ const GallerySection = () => {
             <h1 className='sectionTitle'>Kuvia</h1>
             <div className='mt-16 grid grid-cols-3 max-w-6xl mx-auto gap-8'>
                 {images.map((image, index) => (
-                    <img
-                        src={image.url}
-                        key={index}
-                        alt='gallery'
-                        className='w-[360px] h-[360px] shadow-lg transition-all duration-300 hover:opacity-70'
-                        onClick={() => handleImageClick(index)}
-                    />
+                    <Zoom top key={index}>
+                        <img
+                            src={image.url}
+                            // key={index}
+                            alt='gallery'
+                            className='w-[360px] h-[360px] shadow-lg transition-all duration-300 hover:opacity-70'
+                            onClick={() => handleImageClick(index)}
+                        />
+                    </Zoom>
                 ))}
             </div>
             {isOpen && (
