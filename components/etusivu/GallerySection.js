@@ -26,7 +26,7 @@ const GallerySection = () => {
     };
 
     return (
-        <section className='sectionWrap bg-gray-50'>
+        <section className='sectionWrap '>
             <h1 className='sectionTitle'>Kuvia</h1>
             <div className='mt-16 grid grid-cols-3 max-w-6xl mx-auto gap-8'>
                 {images.map((image, index) => (

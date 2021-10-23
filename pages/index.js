@@ -24,7 +24,7 @@ export default function Home() {
             <ExuvianceSection />
             <GiftSection />
             <AjankohtaistaSection />
-            <GallerySection />
+            {/* <GallerySection /> */}
         </div>
     );
 }

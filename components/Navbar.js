@@ -41,6 +41,11 @@ const Navbar = () => {
                         Hinnasto
                     </a>
                 </Link>
+                <Link href='/kuvia'>
+                    <a className={`${pathname === '/kuvia' && 'link-active'}`}>
+                        Kuvia
+                    </a>
+                </Link>
                 {/* <Link href='/nettiajanvaraus'>
                     <a
                         className={`${
