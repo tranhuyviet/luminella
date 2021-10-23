@@ -4,7 +4,7 @@ const Hero = () => {
     return (
         <section className=' relative '>
             <img
-                src='/images/hero-hinnasto2.jpeg'
+                src='/images/hero-hinnasto2.webp'
                 alt='hero hinnasto'
                 className='w-full h-[500px] object-bottom object-cover'
             />

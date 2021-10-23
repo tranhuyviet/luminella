@@ -7,7 +7,7 @@ const Hero = () => {
         // 112px is mt-28
         <div className='h-[calc(100vh-168px-112px)]'>
             <img
-                src='/images/hero-pic-3.jpeg'
+                src='/images/hero-pic-3.webp'
                 alt='hero pic'
                 className='w-full h-screen object-scale-down xl:object-fill absolute inset-0 z-hero'
             />
