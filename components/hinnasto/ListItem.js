@@ -6,8 +6,8 @@ const ListItem = ({ item }) => {
             <h2 className='text-2xl text-center font-title font-semibold bg-primary-700 py-3 text-gray-50 tracking-wide drop-shadow-sm'>
                 {item.category}
             </h2>
-            {item.items &&
-                item.items.map((el, index) => (
+            {item.hinnastoItems &&
+                item.hinnastoItems.map((el, index) => (
                     <div
                         key={index}
                         className='border flex justify-between items-center py-3 px-4 text-lg text-gray-600'

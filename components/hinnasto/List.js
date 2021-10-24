@@ -184,11 +184,11 @@ const data = [
     },
 ];
 
-const List = () => {
+const List = ({ hinnastos }) => {
     return (
         <div className='relative'>
-            {data &&
-                data.map((item) => (
+            {hinnastos &&
+                hinnastos.map((item) => (
                     <ListItem key={item.category} item={item} />
                 ))}
             {/* <img
