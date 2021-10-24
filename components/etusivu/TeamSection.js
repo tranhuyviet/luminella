@@ -9,22 +9,22 @@ const TeamSection = () => {
             <div className='flex justify-center space-x-8 mt-12'>
                 <Flip left>
                     <TeamCard
+                        imgUrl='/images/Tuula.jpg'
+                        name='TUULA MÄÄTTÄ'
+                        text1='Diplomi-Kosmetologi'
+                        text2='Hieronnan AMT'
+                        text3='Rosen kehoterapia'
+                        phone='050-494 4652'
+                    />
+                </Flip>
+                <Flip left delay={200}>
+                    <TeamCard
                         imgUrl='/images/Chrisu.jpg'
                         name='CHRISTINA HOKKANEN'
                         text1='Jalkojenhoitajan AMT'
                         text2='Vyöhyketerapeutti'
                         text3='Koulutettu hieroja'
                         phone='040-414 0214'
-                    />
-                </Flip>
-                <Flip left delay={200}>
-                    <TeamCard
-                        imgUrl='/images/Tuula.jpg'
-                        name='TUULA MÄÄTTÄ'
-                        text1='Diplomi-Kosmetologi'
-                        text2='Kestopigmentointi'
-                        text3='Rosen kehoterapia'
-                        phone='050-494 4652'
                     />
                 </Flip>
                 <Flip left delay={400}>
