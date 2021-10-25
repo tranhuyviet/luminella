@@ -1,8 +1,9 @@
 import React from 'react';
 import Hero from '../components/hinnasto/Hero';
 import List from '../components/hinnasto/List';
-import client from '../apolloClient';
-import { gql } from '@apollo/client';
+// import client from '../apolloClient';
+// import { gql } from '@apollo/client';
+import { request, gql } from 'graphql-request';
 
 const Hinnasto = ({ hinnastos }) => {
     return (
@@ -16,6 +17,30 @@ const Hinnasto = ({ hinnastos }) => {
 export default Hinnasto;
 
 export async function getStaticProps() {
+    // use graphql-resquest
+    const endpoint = process.env.ENDPOINT;
+
+    const query = gql`
+        query {
+            hinnastos {
+                category
+                order
+                hinnastoItems {
+                    name
+                    price
+                }
+            }
+        }
+    `;
+
+    const data = await request(endpoint, query);
+
+    return {
+        props: { hinnastos: data.hinnastos },
+    };
+
+    // use apollo client
+    /* 
     const { data } = await client.query({
         query: gql`
             query {
@@ -34,4 +59,5 @@ export async function getStaticProps() {
     return {
         props: { hinnastos: data.hinnastos },
     };
+    */
 }
