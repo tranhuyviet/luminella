@@ -16,7 +16,7 @@ const Hinnasto = ({ hinnastos }) => {
 
 export default Hinnasto;
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
     // use graphql-resquest
     const endpoint = process.env.ENDPOINT;
 
