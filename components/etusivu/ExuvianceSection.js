@@ -15,14 +15,14 @@ const ExuvianceSection = () => {
                         ennakkomaksulla. Tilaukseen lisätään
                         pakettiautomaattikulut.
                     </p>
-                    <img
+                    {/* <img
                         src='/images/exu.jpeg'
                         alt='exu image'
                         className='mb-12'
                     />
                     <Link href='https://www.exuviance.fi/tuotteet'>
                         <a className='btn'>Exuviance Tuotteet</a>
-                    </Link>
+                    </Link> */}
                 </div>
             </Fade>
         </section>

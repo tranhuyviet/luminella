@@ -44,7 +44,7 @@ const Hero = () => {
                 <div className='space-x-8 flex justify-center'>
                     <Fade left>
                         <Link href='https://slotti.fi/booking/hyvinvointi-jakauneushoitolaluminella/'>
-                            <a className='btn'>Nettia Ajanvaraus</a>
+                            <a className='btn'>Netti Ajanvaraus</a>
                         </Link>
                     </Fade>
                     <Fade right>
