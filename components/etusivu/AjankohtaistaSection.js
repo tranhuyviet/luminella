@@ -27,7 +27,7 @@ const AjankohtaistaSection = () => {
                                 </p>
                                 <Link href='https://slotti.fi/booking/hyvinvointi-jakauneushoitolaluminella/'>
                                     <a className='btn-reverse'>
-                                        Nettia Ajanvaraus
+                                        Netti Ajanvaraus
                                     </a>
                                 </Link>
                             </Fade>
