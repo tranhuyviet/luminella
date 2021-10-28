@@ -21,7 +21,7 @@ const Hero = () => {
                 </div>
             </div>
             <div className='max-w-4xl  mx-auto mt-28 text-center'>
-                <h1 className='text-5xl mt-10 text-gray-700 font-bold uppercase drop-shadow-lg tracking-wider font-title'>
+                <h1 className='text-5xl mt-10 text-gray-700 font-bold uppercase drop-shadow-xl tracking-wider font-title'>
                     Hyvinvointi- ja Kauneushoitola Luminella
                 </h1>
                 <p className='text-2xl text-gray-500 mt-10'>
@@ -34,7 +34,7 @@ const Hero = () => {
                     parkkitilaa löytyy hoitolan välittömästä läheisyydestä.
                 </p>
 
-                <div className='space-x-8 flex justify-center'>
+                <div className='space-x-8 flex justify-center relative z-20'>
                     <Link href='https://slotti.fi/booking/hyvinvointi-jakauneushoitolaluminella/'>
                         <a className='btn'>Netti Ajanvaraus</a>
                     </Link>
