@@ -15,7 +15,7 @@
     }
 
     .btn-reverse {
-        @apply bg-white py-5 px-7 text-base font-semibold tracking-wider rounded-lg shadow-lg text-primary-700 uppercase transition duration-300
+        @apply bg-white py-4 px-3 sm:py-5 sm:px-7 text-sm sm:text-base font-semibold tracking-wider rounded-lg shadow-lg text-primary-700 uppercase transition duration-300
         hover:bg-gray-100;
     }
 

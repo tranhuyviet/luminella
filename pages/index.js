@@ -22,7 +22,7 @@ export default function Home() {
             <Hero />
             <TeamSection />
             <GiftSection />
-            {/* <AjankohtaistaSection />  */}
+            <AjankohtaistaSection />
         </div>
     );
 }
