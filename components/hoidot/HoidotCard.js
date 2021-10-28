@@ -8,6 +8,9 @@ const HoidotCard = ({ item, index }) => {
                     {item.title}
                 </h1>
                 <p className='mt-6 text-lg text-gray-500'>{item.text}</p>
+                {item.text2 && (
+                    <p className='mt-6 text-lg text-gray-500'>{item.text2}</p>
+                )}
             </div>
         </div>
     );

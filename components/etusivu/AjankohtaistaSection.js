@@ -1,6 +1,5 @@
 import React from 'react';
 import Link from 'next/link';
-import Fade from 'react-reveal/Fade';
 
 const AjankohtaistaSection = () => {
     return (
@@ -8,13 +7,12 @@ const AjankohtaistaSection = () => {
             <h1 className='sectionTitle'>Ajankohtaista</h1>
             <div className='mt-10 relative max-w-4xl mx-auto'>
                 <div className='border w-full grid grid-cols-2 shadow-lg bg-primary-700'>
-                    <Fade left>
-                        <img
-                            src='/images/rosen.jpg'
-                            alt='exu'
-                            className='w-[420px] border-r'
-                        />
-                    </Fade>
+                    <img
+                        src='/images/rosen.jpg'
+                        alt='exu'
+                        className='w-[420px] border-r'
+                    />
+
                     <div className='text-gray-500 py-6 px-6 flex items-center '>
                         <div>
                             <h2 className='text-2xl font-title font-semibold text-gray-100'>

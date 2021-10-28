@@ -29,7 +29,8 @@ const data = [
     },
     {
         title: 'HIERONNAT',
-        text: 'Asiakas hierotaan aina toivomallaan tavalla, sillä hieronnan tarve on hyvin yksilöllistä. Klassinen hieronta sopii kaikille, antaa helpotusta lihaksiston jännitys-ja kiputiloihin, rentouttaa ja aktivoi verenkiertoa sekä auttaa poistamaan kuona-aineita kehosta. Urheiluhieronta nopeuttaa palautumista ja valmistaa elimistöä uuteen harjoitukseen sekä vähentää loukkaantumisriskiä. Tarvittaessa voidaan tehdä imukuppihierontaa, joka on erittäin tehokas apu verenkierron vilkastumiseen.. Seniorihieronta Hellävaraisella hieronnalla saadaan aikaseksi fyysisen olon parantamista sekä mielen rauhaa. Hieronnassa otetaan huomioon ikääntyvän kehon muutokset ja herkkyys. Luminellaan voit tulla luottavaisin mielin, tietäen, että sinua hoitaa osaava ja kunnioittava alan ammattilainen. Christinan erikoishieronta sisältää klassisen hieronnan ja nivelliikkuvuuden erikoisosaamisen. Mobilisoiva hieronta parantaa ja ylläpitää nivelten liikkuvuutta. Lievittää kipua, parantaa niveltä ympäröivien lihasten toimintaa. Hidasrytminen, rauhallisin liikkein nivelten eri rakenteisiin, nivelkapseliin ja nivelsiteisiin kohdennetaan paikallinen venytys. Lempeä mutta tehokas hoito.',
+        text: 'Asiakas hierotaan aina toivomallaan tavalla, sillä hieronnan tarve on hyvin yksilöllistä. Klassinen hieronta sopii kaikille, antaa helpotusta lihaksiston jännitys-ja kiputiloihin, rentouttaa ja aktivoi verenkiertoa sekä auttaa poistamaan kuona-aineita kehosta. Urheiluhieronta nopeuttaa palautumista ja valmistaa elimistöä uuteen harjoitukseen sekä vähentää loukkaantumisriskiä. Tarvittaessa voidaan tehdä imukuppihierontaa, joka on erittäin tehokas apu verenkierron vilkastumiseen.. Seniorihieronta Hellävaraisella hieronnalla saadaan aikaseksi fyysisen olon parantamista sekä mielen rauhaa. Hieronnassa otetaan huomioon ikääntyvän kehon muutokset ja herkkyys. Luminellaan voit tulla luottavaisin mielin, tietäen, että sinua hoitaa osaava ja kunnioittava alan ammattilainen.',
+        text2: 'Christinan erikoishieronta sisältää klassisen hieronnan ja nivelliikkuvuuden erikoisosaamisen. Mobilisoiva hieronta parantaa ja ylläpitää nivelten liikkuvuutta. Lievittää kipua, parantaa niveltä ympäröivien lihasten toimintaa. Hidasrytminen, rauhallisin liikkein nivelten eri rakenteisiin, nivelkapseliin ja nivelsiteisiin kohdennetaan paikallinen venytys. Lempeä mutta tehokas hoito.',
     },
     {
         title: 'KUUMAKIVIHIERONTA',
@@ -52,11 +53,10 @@ const data = [
 const Hoidot = () => {
     return (
         <div className='sectionWrap '>
+            {/* <h1 className='sectionTitle mb-16'>Hoidot</h1> */}
             {data &&
                 data.map((item, index) => (
-                    <Fade right key={index}>
-                        <HoidotCard item={item} index={index} />
-                    </Fade>
+                    <HoidotCard item={item} index={index} key={index} />
                 ))}
         </div>
     );

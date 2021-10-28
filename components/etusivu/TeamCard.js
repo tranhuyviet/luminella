@@ -2,7 +2,7 @@ import React from 'react';
 
 const TeamCard = ({ imgUrl, name, text1, text2, text3, phone }) => {
     return (
-        <div className='max-w-sm border shadow-lg text-center bg-primary-300'>
+        <div className='max-w-sm border shadow-lg text-center bg-primary-300 relative z-20'>
             <img src={imgUrl} alt={name} />
             <h2 className='text-xl font-bold text-gray-800 mt-6 drop-shadow-md tracking-wider'>
                 {name}

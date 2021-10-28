@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import Fade from 'react-reveal/Fade';
+
 const Hero = () => {
     return (
         // 112px is mt-28
@@ -20,16 +20,16 @@ const Hero = () => {
                     />
                 </div>
             </div>
-            <div className='max-w-3xl  mx-auto mt-28 text-center'>
-                <h1 className='text-4xl mt-10 text-gray-700 font-semibold uppercase drop-shadow-lg tracking-wider font-title'>
+            <div className='max-w-4xl  mx-auto mt-28 text-center'>
+                <h1 className='text-5xl mt-10 text-gray-700 font-bold uppercase drop-shadow-lg tracking-wider font-title'>
                     Hyvinvointi- ja Kauneushoitola Luminella
                 </h1>
-                <p className='text-xl text-gray-500 mt-10'>
+                <p className='text-2xl text-gray-500 mt-10'>
                     Hyvinvointi- ja Kauneushoitola Luminella sijaitsee
                     Myyrmäessä kävelymatkan (5min) päässä juna-asemalta
                     osoitteessa Leiritie 2.
                 </p>
-                <p className='text-xl text-gray-500 mt-3 mb-14'>
+                <p className='text-2xl text-gray-500 mt-3 mb-14'>
                     Oven edessä on parkkipaikka kahdelle autolle ja lisää
                     parkkitilaa löytyy hoitolan välittömästä läheisyydestä.
                 </p>
