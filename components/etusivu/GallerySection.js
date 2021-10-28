@@ -26,11 +26,11 @@ const GallerySection = () => {
     };
 
     return (
-        <section className='sectionWrap bg-gray-50'>
+        <section className='sectionWrap'>
             <h1 className='sectionTitle'>Kuvia</h1>
             <div className='mt-16 grid grid-cols-3 max-w-6xl mx-auto gap-8'>
                 {images.map((image, index) => (
-                    <Zoom top key={index}>
+                    <div key={index}>
                         <img
                             src={image.url}
                             // key={index}
@@ -38,7 +38,7 @@ const GallerySection = () => {
                             className='w-[360px] h-[360px] shadow-lg transition-all duration-300 hover:opacity-70'
                             onClick={() => handleImageClick(index)}
                         />
-                    </Zoom>
+                    </div>
                 ))}
             </div>
             {isOpen && (

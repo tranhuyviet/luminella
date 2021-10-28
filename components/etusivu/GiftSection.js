@@ -12,9 +12,9 @@ const GiftSection = () => {
                     <p className='mb-12 text-lg text-gray-500'>
                         Luminellan lahjakortit ovat henkilökohtainen ja toivottu
                         lahja. Lahjakortteja on saatavana valitulle hoidolle tai
-                        euromääräisenä. Lahjakortit voi noutaa hoitolasta tai
-                        pyytää lähettämään postitse. Voimassaoloaika
-                        lahjakorteille on 4-6 kk.
+                        euromääräisenä. Lahjakortit voi ostaa sähköisesti,
+                        noutaa hoitolasta tai pyytää lähettämään postitse.
+                        Voimassaoloaika lahjakorteille on 4-6 kk.
                     </p>
                 </Fade>
                 <Fade right delay={300}>

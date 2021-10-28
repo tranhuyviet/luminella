@@ -2,12 +2,12 @@ import React from 'react';
 
 const TeamCard = ({ imgUrl, name, text1, text2, text3, phone }) => {
     return (
-        <div className='max-w-sm border shadow-lg text-center bg-white'>
+        <div className='max-w-sm border shadow-lg text-center bg-primary-300'>
             <img src={imgUrl} alt={name} />
             <h2 className='text-xl font-bold text-gray-800 mt-6 drop-shadow-md tracking-wider'>
                 {name}
             </h2>
-            <div className='w-full flex justify-center mt-2 mb-3'>
+            <div className='w-full flex justify-center mt-2 mb-3 '>
                 <svg
                     xmlns='http://www.w3.org/2000/svg'
                     className='h-4 w-4 text-gray-400'
@@ -36,7 +36,7 @@ const TeamCard = ({ imgUrl, name, text1, text2, text3, phone }) => {
             <p className='text-md text-gray-500 mb-2'>{text1}</p>
             <p className='text-md text-gray-500 mb-2'>{text2}</p>
             <p className='text-md text-gray-500 mb-2'>{text3}</p>
-            <p className='text-lg text-gray-500 mb-8 font-bold'>{phone}</p>
+            <p className='text-lg text-gray-800 mb-8 font-bold'>{phone}</p>
         </div>
     );
 };

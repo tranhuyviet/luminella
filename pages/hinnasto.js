@@ -22,7 +22,7 @@ export async function getServerSideProps() {
 
     const query = gql`
         query {
-            hinnastos {
+            hinnastos(orderBy: order_ASC) {
                 category
                 order
                 hinnastoItems {

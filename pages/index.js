@@ -21,10 +21,10 @@ export default function Home() {
             </Head>
             <Hero />
             <TeamSection />
-            <ExuvianceSection />
+            {/* <ExuvianceSection /> */}
             <GiftSection />
             <AjankohtaistaSection />
-            <GallerySection />
+            {/* <GallerySection /> */}
         </div>
     );
 }
