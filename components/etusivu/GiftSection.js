@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Fade from 'react-reveal/Fade';
 const GiftSection = () => {
     return (
-        <section className='sectionWrap relative bg-gray-50'>
+        <section className='sectionWrap relative'>
             <Fade right>
                 <h1 className='sectionTitle'>Luminellan lahjakortit</h1>
             </Fade>

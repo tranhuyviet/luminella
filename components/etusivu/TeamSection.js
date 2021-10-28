@@ -4,7 +4,7 @@ import Flip from 'react-reveal/Flip';
 
 const TeamSection = () => {
     return (
-        <section className='sectionWrap min-h-screen relative overflow-hidden z-mandala bg-gray-50'>
+        <section className='sectionWrap min-h-screen relative overflow-hidden bg-gray-50'>
             <h1 className='sectionTitle'>Luminellan ammattilaiset</h1>
             <div className='flex justify-center space-x-8 mt-12'>
                 <Flip left>

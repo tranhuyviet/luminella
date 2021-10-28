@@ -4,9 +4,9 @@ import Fade from 'react-reveal/Fade';
 
 const AjankohtaistaSection = () => {
     return (
-        <section className='sectionWrap max-w-4xl mx-auto'>
+        <section className='sectionWrap  bg-gray-50'>
             <h1 className='sectionTitle'>Ajankohtaista</h1>
-            <div className='mt-10 relative'>
+            <div className='mt-10 relative max-w-4xl mx-auto'>
                 <div className='border w-full grid grid-cols-2 shadow-lg bg-primary-700'>
                     <Fade left>
                         <img

@@ -21,7 +21,7 @@ const Navbar = () => {
                 alt='logo'
                 className='hidden sm:block h-28 my-4'
             />
-            <div className='hidden space-x-6 uppercase tracking-widest text-gray-800 text-md sm:block'>
+            <div className='hidden space-x-6 uppercase tracking-widest text-gray-800 text-md sm:block relative z-50'>
                 <Link href='/'>
                     <a className={`${pathname === '/' && 'link-active'}`}>
                         Etusivu
