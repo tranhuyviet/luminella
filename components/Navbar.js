@@ -12,7 +12,7 @@ const Navbar = () => {
                 alt='logo'
                 className='h-20 my-2 sm:block sm:h-28 sm:my-4'
             />
-            <div className='text-xs tracking-wide space-x-4 sm:space-x-6 uppercase sm:tracking-widest text-gray-800 sm:text-md sm:block relative z-50 md:text-lg'>
+            <div className='text-sm tracking-wide space-x-4 sm:space-x-6 uppercase sm:tracking-widest text-gray-800 sm:text-md sm:block relative z-50 md:text-lg'>
                 <Link href='/'>
                     <a className={`${pathname === '/' && 'link-active'}`}>
                         Etusivu
