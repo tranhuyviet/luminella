@@ -10,7 +10,7 @@
     }
 
     .btn {
-        @apply bg-primary-700 py-5 px-7 text-base font-semibold tracking-wider rounded-lg shadow-lg text-white uppercase transition duration-300
+        @apply bg-primary-700 py-4 px-3 sm:py-5 sm:px-7 text-sm sm:text-base font-semibold tracking-wider rounded-lg shadow-lg text-white uppercase transition duration-300
         hover:bg-primary-500 hover:ring-2 hover:ring-offset-4 hover:ring-primary-500;
     }
 

@@ -19,10 +19,10 @@ export default function Home() {
                 />
                 <link rel='icon' href='/favicon.ico' />
             </Head>
-            {/* <Hero />
-            <TeamSection />
-            <GiftSection />
-            <AjankohtaistaSection /> */}
+            <Hero />
+            {/* <TeamSection /> */}
+            {/* <GiftSection /> */}
+            {/* <AjankohtaistaSection />  */}
         </div>
     );
 }
