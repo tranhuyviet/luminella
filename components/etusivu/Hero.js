@@ -5,7 +5,7 @@ import Link from 'next/link';
 const Hero = () => {
     return (
         // 112px is mt-28
-        <div className='h-[calc(100vh-152px)] sm:h-[calc(100vh-168px-112px)] '>
+        <div className='h-[calc(100vh-168px)] md:h-[calc(100vh-168px-116px)] '>
             <div className='absolute inset-0 overflow-hidden'>
                 <div className='relative w-screen h-screen'>
                     <img
@@ -16,7 +16,7 @@ const Hero = () => {
                     <img
                         src='/images/mandala-2.svg'
                         alt='hero pic'
-                        className='absolute z-hero w-[80%] opacity-[0.25] sm:w-[40%] sm:opacity-[0.35] right-0  translate-x-1/2 top-20'
+                        className='absolute z-hero w-[80%] opacity-[0.25] sm:w-[40%] sm:opacity-[0.35] right-10  translate-x-1/2 top-20'
                     />
                 </div>
             </div>

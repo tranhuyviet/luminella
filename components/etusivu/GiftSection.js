@@ -5,8 +5,8 @@ const GiftSection = () => {
         <section className='sectionWrap relative'>
             <h1 className='sectionTitle'>Luminellan lahjakortit</h1>
 
-            <div className='mt-10 max-w-3xl mx-auto'>
-                <p className='mb-12 text-lg text-gray-500'>
+            <div className='mt-8 md:mt-10 max-w-3xl mx-auto'>
+                <p className='mb-10 md:mb-12 text-lg text-gray-500'>
                     Luminellan lahjakortit ovat henkilökohtainen ja toivottu
                     lahja. Lahjakortteja on saatavana valitulle hoidolle tai
                     euromääräisenä. Lahjakortit voi ostaa sähköisesti, noutaa
@@ -15,15 +15,15 @@ const GiftSection = () => {
                 </p>
 
                 <Link href='https://holvi.com/shop/luminella/'>
-                    <a className='btn'>Osta lahjakortit</a>
+                    <a className='btn relative z-20'>Osta lahjakortit</a>
                 </Link>
             </div>
-            <div className='absolute  bottom-0 right-0 opacity-30 w-[300px] h-[300px]'>
+            <div className='absolute  bottom-0 right-0 opacity-20 md:opacity-30 w-[100px] md:w-[250px] '>
                 <img src='/images/gift-box.png' alt='gift' />
             </div>
             <svg
                 xmlns='http://www.w3.org/2000/svg'
-                className='h-40 w-40 absolute top-0 left-8 text-primary-700 transform rotate-12 opacity-25 '
+                className='w-20 md:w-40 absolute top-0 left-8 text-primary-700 transform rotate-12 opacity-25 '
                 viewBox='0 0 20 20'
                 fill='currentColor'
             >

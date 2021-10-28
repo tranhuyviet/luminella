@@ -3,7 +3,7 @@ import TeamCard from './TeamCard';
 
 const TeamSection = () => {
     return (
-        <section className='sectionWrap min-h-screen relative overflow-hidden bg-gray-50'>
+        <section className='sectionWrap relative overflow-hidden bg-gray-50'>
             <h1 className='sectionTitle'>Luminellan ammattilaiset</h1>
             <div className='flex flex-col px-8 justify-center items-center md:flex-row md:space-y-0 md:space-x-8 mt-8 space-y-8 space-x-0 md:mt-12'>
                 <TeamCard
@@ -52,7 +52,7 @@ const TeamSection = () => {
                     <img
                         src='/images/mandala-2.svg'
                         alt='mandala'
-                        className='w-[80%] sm:w-[40%] absolute right-0 bottom-0 translate-y-1/2 opacity-[0.35] translate-x-1/2'
+                        className='w-[80%] sm:w-[40%] absolute bottom-0 left-0 translate-y-1/2 opacity-[0.35] -translate-x-1/2'
                     />
                 </div>
             </div>
@@ -65,12 +65,14 @@ const TeamSection = () => {
                     />
                 </div>
             </div> */}
-            <div className='absolute z-10 top-0 -translate-y-1/2 w-full'>
-                <img
-                    src='/images/mandala-1.svg'
-                    alt='mandala'
-                    className='w-[80%] sm:w-[60%] -translate-x-1/2 opacity-[0.35]'
-                />
+            <div className='absolute z-10  top-0 -translate-y-1/2 w-full'>
+                <div className='relative'>
+                    <img
+                        src='/images/mandala-1.svg'
+                        alt='mandala'
+                        className='w-[80%] sm:w-[40%]  opacity-[0.35] right-10 top-10 absolute translate-x-1/2 -translate-y-1/2'
+                    />
+                </div>
             </div>
         </section>
     );
