@@ -5,7 +5,7 @@ const TeamSection = () => {
     return (
         <section className='sectionWrap min-h-screen relative overflow-hidden bg-gray-50'>
             <h1 className='sectionTitle'>Luminellan ammattilaiset</h1>
-            <div className='flex justify-center space-x-8 mt-12'>
+            <div className='flex flex-col px-8 justify-center items-center md:flex-row md:space-y-0 md:space-x-8 mt-8 space-y-8 space-x-0 md:mt-12'>
                 <TeamCard
                     imgUrl='/images/Tuula.jpg'
                     name='TUULA MÄÄTTÄ'
@@ -52,7 +52,7 @@ const TeamSection = () => {
                     <img
                         src='/images/mandala-2.svg'
                         alt='mandala'
-                        className='w-[40%] absolute right-0 bottom-0 translate-y-1/2 opacity-[0.35] translate-x-1/2'
+                        className='w-[80%] sm:w-[40%] absolute right-0 bottom-0 translate-y-1/2 opacity-[0.35] translate-x-1/2'
                     />
                 </div>
             </div>
@@ -69,7 +69,7 @@ const TeamSection = () => {
                 <img
                     src='/images/mandala-1.svg'
                     alt='mandala'
-                    className='w-[60%] -translate-x-1/2 opacity-[0.35]'
+                    className='w-[80%] sm:w-[60%] -translate-x-1/2 opacity-[0.35]'
                 />
             </div>
         </section>

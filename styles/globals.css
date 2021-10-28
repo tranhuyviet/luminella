@@ -20,11 +20,11 @@
     }
 
     .sectionTitle {
-        @apply uppercase text-4xl text-gray-700 tracking-widest font-title drop-shadow-md
-        first-letter:text-primary-700 first-letter:font-bold first-letter:text-6xl;
+        @apply uppercase text-2xl sm:text-4xl text-gray-700 tracking-widest font-title drop-shadow-md
+        first-letter:text-primary-700 first-letter:font-bold first-letter:text-4xl sm:first-letter:text-6xl;
     }
 
     .sectionWrap {
-        @apply text-center py-16;
+        @apply text-center py-8 px-4 sm:py-16;
     }
 }
