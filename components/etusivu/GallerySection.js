@@ -27,9 +27,9 @@ const GallerySection = () => {
     return (
         <section className='sectionWrap'>
             {/* <h1 className='sectionTitle'>Kuvia</h1> */}
-            <div className=' grid grid-cols-3 max-w-6xl mx-auto gap-8'>
+            <div className=' grid md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto gap-8 mt-2'>
                 {images.map((image, index) => (
-                    <div key={index}>
+                    <div key={index} className='flex justify-center'>
                         <img
                             src={image.url}
                             // key={index}
