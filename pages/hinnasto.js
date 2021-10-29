@@ -1,6 +1,7 @@
 import React from 'react';
 import Hero from '../components/hinnasto/Hero';
 import List from '../components/hinnasto/List';
+import Head from 'next/head';
 // import client from '../apolloClient';
 // import { gql } from '@apollo/client';
 import { request, gql } from 'graphql-request';
@@ -8,6 +9,16 @@ import { request, gql } from 'graphql-request';
 const Hinnasto = ({ hinnastos }) => {
     return (
         <div className='py-8 md:py-16'>
+            <Head>
+                <title>
+                    Hinnasto | Hyvinvointi- ja Kauneushoitola Luminella
+                </title>
+                <meta
+                    name='description'
+                    content='Hyvinvointi- ja Kauneushoitola Luminella'
+                />
+                <link rel='icon' href='/favicon.ico' />
+            </Head>
             <Hero />
             <List hinnastos={hinnastos} />
         </div>

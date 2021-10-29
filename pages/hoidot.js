@@ -1,6 +1,6 @@
 import React from 'react';
 import HoidotCard from '../components/hoidot/HoidotCard';
-import Fade from 'react-reveal/Fade';
+import Head from 'next/head';
 
 const data = [
     {
@@ -53,6 +53,14 @@ const data = [
 const Hoidot = () => {
     return (
         <div className='sectionWrap '>
+            <Head>
+                <title>Hoidot | Hyvinvointi- ja Kauneushoitola Luminella</title>
+                <meta
+                    name='description'
+                    content='Hyvinvointi- ja Kauneushoitola Luminella'
+                />
+                <link rel='icon' href='/favicon.ico' />
+            </Head>
             {/* <h1 className='sectionTitle mb-16'>Hoidot</h1> */}
             {data &&
                 data.map((item, index) => (
