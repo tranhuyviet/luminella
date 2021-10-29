@@ -7,7 +7,7 @@ import { request, gql } from 'graphql-request';
 
 const Hinnasto = ({ hinnastos }) => {
     return (
-        <div className='sectionWrap'>
+        <div className='py-8 md:py-16'>
             <Hero />
             <List hinnastos={hinnastos} />
         </div>

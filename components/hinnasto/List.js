@@ -186,7 +186,7 @@ const data = [
 
 const List = ({ hinnastos }) => {
     return (
-        <div className='relative'>
+        <div className='relative px-4'>
             {hinnastos &&
                 hinnastos.map((item) => (
                     <ListItem key={item.category} item={item} />
