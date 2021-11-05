@@ -23,6 +23,13 @@ export default function Home() {
             <TeamSection />
             <GiftSection />
             <AjankohtaistaSection />
+            <div className='absolute inset-0 overflow-hidden z-mandala'>
+                <img
+                    src='/images/mandala-2.svg'
+                    alt='hero pic'
+                    className='absolute z-hero w-[80%] opacity-[0.25] sm:w-[40%] sm:opacity-[0.35] right-10  translate-x-1/2 top-20'
+                />
+            </div>
         </div>
     );
 }
