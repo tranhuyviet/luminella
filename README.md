@@ -11,4 +11,4 @@
 - Luminella's team
 - Treatments
 - Price List
-- Galerry
+- Gallery
