@@ -3,7 +3,7 @@
 ## Link: https://www.luminella.fi/
 
 ## Technologies:
-- Frontend: Nextjs, Tailwindcss, Apollo Client, Graphql 
+- Frontend: Nextjs, Tailwindcss, Apollo Client, Graphql, Tailwindcss 
 - Backend: GraphCMS
 
 ## Features:
