@@ -38,10 +38,6 @@ const Hero = () => {
                     <Link href='https://slotti.fi/booking/hyvinvointi-jakauneushoitolaluminella/'>
                         <a className='btn'>Netti Ajanvaraus</a>
                     </Link>
-
-                    <Link href='https://www.facebook.com/Luminella-1449576941995360/?fref=ts'>
-                        <a className='btn'>Meidän Facebook</a>
-                    </Link>
                 </div>
             </div>
         </div>

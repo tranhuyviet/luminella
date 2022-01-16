@@ -28,11 +28,6 @@ const AjankohtaistaSection = () => {
                                         Netti Ajanvaraus
                                     </a>
                                 </Link>
-                                <Link href='https://www.facebook.com/Rosenterapeuttifi-342042090069211'>
-                                    <a className='btn-reverse ml-4'>
-                                        Rosen Facebook
-                                    </a>
-                                </Link>
                             </div>
                         </div>
                     </div>
