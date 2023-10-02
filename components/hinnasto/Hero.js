@@ -23,10 +23,7 @@ const Hero = () => {
             siitä viimeistään 24 h / vuorokautta aikaisemmin. Muussa tapauksessa
             joudumme veloittamaan 50 % varaamasi palvelun arvosta.
           </p>
-          <p className="text-lg md:text-xl  mt-4 drop-shadow-lg">
-            Exuviance-sarjahoidot 7-14 vuorokauden välein: Joka kolmas hoito
-            -50%
-          </p>
+
           <img
             src="/images/mandala-3.svg"
             alt="mandala"

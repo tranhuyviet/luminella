@@ -5,7 +5,7 @@ import Head from "next/head";
 const data = [
   {
     title: "KASVOHOIDOT",
-    text: "Ihonhoitotuotesarjalla naisille ja miehille, jotka odottavat todellisia tuloksia. Kasvohoidot aina asiakkaan ihon kunto, tarpeet ja toiveet sekä käytettävä aika huomioiden. Apua myös ongelmaihoille; atopia, psoriasis, akne ja ruusufinni Hoidot sisältävät veloituksetta kulmien siistimisen.",
+    text: "Kasvohoidot suunnitellaan aina asiakkaan ihon kunto, tarpeet ja toiveet sekä käytettävä aika huomioiden. Puhdistava, kosteuttava, kiinteyttävä, rauhoittava tai elvyttävä. Hoidot sisältävät veloituksetta kulmien siistimisen.",
   },
   {
     title: "JALKAHOIDOT myös REUMA ja DIABETES asiakkaat",
